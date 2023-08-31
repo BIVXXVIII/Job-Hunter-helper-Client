@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-gutter{
+    scrollbar-gutter: stable;
+    
+}
+
+.bg-pattern-welcome{
+@apply bg-stone-300;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+::-webkit-scrollbar{
+    @apply w-2
+}
+
+::-webkit-scrollbar-track{
+    @apply rounded-md bg-slate-500/20
+}
+
+::-webkit-scrollbar-thumb{
+    @apply bg-gray-400 rounded-md hover:bg-gray-500
+}
+
