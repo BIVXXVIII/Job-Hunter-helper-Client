@@ -17,29 +17,6 @@ export type MarkersGroup = {
     groupStatus?: ContextStatus;
 };
 
-// export type MarkerGroupT = {
-//     title: string;
-//     groupId: string;
-//     style: string;
-//     markersId: string[];
-//     status: ContextStatus;
-//     context?: string;
-// };
-
-// export type MarkerT = {
-//     id: string;
-//     title: string;
-//     groups: MarkerGroupT[];
-// };
-
-// export type VacancyT = {
-//     id: string;
-//     title: string;
-//     siteName: string;
-//     url: string;
-//     markersId: string[];
-// };
-
 export type GroupColorName =
     | "default"
     | "lime"
